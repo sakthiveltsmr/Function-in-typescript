@@ -19,3 +19,12 @@ function main3(num1, num2) {
     }
 }
 main3(2);
+// function without using interface
+function main4(person) {
+    return console.log("".concat(person.firstname).concat(person.lastname));
+}
+var p = {
+    firstname: "sakthi",
+    lastname: "vel"
+};
+main4(p);

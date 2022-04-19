@@ -25,3 +25,16 @@ function main3(num1: number, num2?: number) {
 }
 
 main3(2);
+
+// function without using interface
+
+function main4(person: { firstname: string; lastname: string }) {
+  return console.log(`${person.firstname}${person.lastname}`);
+}
+
+let p = {
+  firstname: "sakthi",
+  lastname: "vel",
+};
+
+main4(p);
