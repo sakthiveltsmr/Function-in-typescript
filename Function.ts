@@ -14,4 +14,14 @@ function main2(num1: number, num2: number = 5) {
 
 main2(3);
 
-//function
+//function with optional parameter
+
+function main3(num1: number, num2?: number) {
+  if (num2) {
+    return console.log(num1 + num2);
+  } else {
+    return console.log(num1);
+  }
+}
+
+main3(2);
