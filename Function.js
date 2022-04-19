@@ -36,3 +36,10 @@ var person = {
     lastname: "kumar"
 };
 main5(person);
+//any
+function main6(name) {
+    console.log(name);
+}
+main6(1);
+main6("sakthi");
+main6(true);
