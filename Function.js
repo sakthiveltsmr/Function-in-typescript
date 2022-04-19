@@ -28,3 +28,11 @@ var p = {
     lastname: "vel"
 };
 main4(p);
+function main5(person) {
+    console.log("".concat(person.firstname).concat(person.lastname));
+}
+var person = {
+    firstname: "sathish",
+    lastname: "kumar"
+};
+main5(person);

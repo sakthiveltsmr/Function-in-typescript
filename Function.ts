@@ -38,3 +38,20 @@ let p = {
 };
 
 main4(p);
+
+// function with using interface
+
+interface person {
+  firstname: string;
+  lastname: string;
+}
+
+function main5(person: person) {
+  console.log(`${person.firstname}${person.lastname}`);
+}
+
+let person = {
+  firstname: "sathish",
+  lastname: "kumar",
+};
+main5(person);
